@@ -13,7 +13,7 @@ import kripke.KripkeStruct;
  * kripke structure to find out if it is satisfied. It will send the results
  * back to the view object.
  * 
- * @author ssiroky
+ * @author Satya Annavaram
  *
  */
 public class ModelCheckCTLModel extends AbstractModel {

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 /**
- * @author ssiroky
+ * @author Satya Annavaram
  *
  */
 public abstract class AbstractModel implements Model {

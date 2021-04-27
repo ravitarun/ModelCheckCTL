@@ -5,7 +5,7 @@ import java.util.Stack;
 /**
  * This class checks all parentheses but we only use ( or [ type parentheses.
  * 
- * @author From the web source unknown
+ * @author Satya Annavaram
  *
  */
 public class ParenthesesCheck {

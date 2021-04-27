@@ -3,7 +3,7 @@ package modelCheckCTL.util;
 import modelCheckCTL.view.View;
 
 /**
- * @author ssiroky
+ * @author Satya Annavaram
  *
  */
 

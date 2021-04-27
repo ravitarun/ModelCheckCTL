@@ -9,7 +9,7 @@ import modelCheckCTL.view.ModelCheckCTLView;
 /**
  * This object is used to open a file.
  * 
- * @author ssiroky
+ * @author Satya Annavaram
  *
  */
 public class ModelCheckCTLUtil extends AbstractUtil {

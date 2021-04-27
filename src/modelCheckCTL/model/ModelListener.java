@@ -4,7 +4,7 @@ package modelCheckCTL.model;
 /**
  * Registered with the view.
  * 
- * @author ssiroky
+ * @author Satya Annavaram
  *
  */
 public interface ModelListener {

@@ -1,7 +1,7 @@
 package modelCheckCTL.model;
 
 /**
- * @author ssiroky
+ * @author Satya Annavaram
  *
  */
 public interface Model {

@@ -3,7 +3,7 @@ package modelCheckCTL.model;
 /**
  * Exception thrown by the model.
  * 
- * @author ssiroky
+ * @author Satya Annavaram
  *
  */
 public class ModelException extends Exception {

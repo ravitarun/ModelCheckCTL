@@ -5,7 +5,7 @@ package ctlParser;
  * This is the element of a binary search tree that will represent a CTL
  * formula.
  * 
- * @author ssiroky
+ * @author Satya Annavaram
  *
  */
 

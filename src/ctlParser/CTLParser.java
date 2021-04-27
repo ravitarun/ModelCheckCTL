@@ -5,7 +5,7 @@ import modelCheckCTL.model.ModelException;
 /**
  * This is the main object for creating and handling a CTL formula.
  * 
- * @author ssiroky
+ * @author Satya Annavaram
  *
  */
 public class CTLParser {

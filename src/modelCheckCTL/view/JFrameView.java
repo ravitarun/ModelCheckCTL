@@ -8,7 +8,7 @@ import modelCheckCTL.model.Model;
 import modelCheckCTL.model.ModelListener;
 
 /**
- * @author ssiroky
+ * @author Satya Annavaram
  *
  */
 abstract public class JFrameView extends JFrame implements View, ModelListener {

@@ -1,7 +1,7 @@
 package data_obj;
 
 /**
- * @author wiki-algorithm
+ * @author Satya Annavaram
  *
  */
 public class Node implements Comparable<Node> {

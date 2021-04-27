@@ -22,7 +22,7 @@ import modelCheckCTL.model.ModelEvent;
  * a starting state from the user. Buttons exist to submit all of these items.
  * The GUI also contains a log output area for the results of the actions taken.
  * 
- * @author ssiroky
+ * @author Satya Annavaram
  *
  */
 

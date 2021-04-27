@@ -10,7 +10,7 @@ import data_obj.Node;
  * transitions to many states and from many states but there should not be
  * duplicates.
  * 
- * @author ssiroky
+ * @author Satya Annavaram
  *
  */
 

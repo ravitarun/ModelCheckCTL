@@ -5,7 +5,7 @@ import modelCheckCTL.util.Util;
 import modelCheckCTL.view.View;
 
 /**
- * @author ssiroky
+ * @author Satya Annavaram
  *
  */
 

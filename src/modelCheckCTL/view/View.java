@@ -4,7 +4,7 @@ import modelCheckCTL.controller.Controller;
 import modelCheckCTL.model.Model;
 
 /**
- * @author ssiroky
+ * @author Satya Annavaram
  *
  */
 public interface View {

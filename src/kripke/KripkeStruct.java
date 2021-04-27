@@ -14,7 +14,7 @@ import data_obj.Edge;
  * The parser will take a text file that describes a kripke structure and build
  * a directed graph. It will use the KripkeStruct object to do this.
  * 
- * @author ssiroky
+ * @author Satya Annavaram
  *
  */
 

@@ -10,7 +10,7 @@ import modelCheckCTL.view.ModelCheckCTLView;
 /**
  * The controller is a go between the model and the view object.
  * 
- * @author ssiroky
+ * @author Satya Annavaram
  *
  */
 

@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 /**
  * This allows communication with the view.
  * 
- * @author ssiroky
+ * @author Satya Annavaram
  *
  */
 public class ModelEvent extends ActionEvent {

@@ -8,7 +8,7 @@ import modelCheckCTL.model.ModelException;
  * This class is responsible for creating a data structure to represent a well
  * formed CTL formula.
  * 
- * @author ssiroky
+ * @author Satya Annavaram
  */
 
 public class CTLFormulaStack {

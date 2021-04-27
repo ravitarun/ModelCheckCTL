@@ -16,7 +16,7 @@ import data_obj.Node;
  * state to determine if a current formula holds or if it fails for a given
  * model.
  * 
- * @author ssiroky
+ * @author Satya Annavaram
  *
  */
 

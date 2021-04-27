@@ -8,7 +8,7 @@ import modelCheckCTL.view.View;
  * This interface allows communication between the controller and the following:
  * CTLModel, CTLView, CTLUtil
  * 
- * @author ssiroky
+ * @author Satya Annavaram
  *
  */
 public interface Controller {
