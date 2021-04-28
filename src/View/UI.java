@@ -42,7 +42,7 @@ public class UI {
 	private void initialize() {
 		frame = new JFrame();
 		frame.getContentPane().setFont(new Font("Times New Roman", Font.PLAIN, 10));
-		frame.setBounds(100, 100, 950, 700);
+		frame.setBounds(100, 100, 2000, 900);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setBackground(new Color(51, 204, 255));
 		
