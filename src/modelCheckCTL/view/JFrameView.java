@@ -1,7 +1,9 @@
 package modelCheckCTL.view;
 
-import javax.swing.JFrame;
+import java.awt.Color;
+import java.awt.FlowLayout;
 
+import javax.swing.JFrame;
 import modelCheckCTL.controller.Controller;
 import modelCheckCTL.model.AbstractModel;
 import modelCheckCTL.model.Model;
@@ -26,57 +28,57 @@ abstract public class JFrameView extends JFrame implements View, ModelListener {
 	public JFrameView(Model model, Controller controller) {
 		setModel(model);
 		setController(controller);
+		setTitle("Model Check CTL");
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setLayout(new FlowLayout());
+		setBackground(Color.CYAN);
+		
+
 	}
 
 	/**
 	 * Register the listener with the model.
 	 */
-	public void registerWithModel() {
-		System.out.println("JFrameView.registerWithModel ");
+	public void registerModel() {
+		System.out.println("JFrameView.registerModel ");
 		((AbstractModel) model).addModelListener(this);
 	}
 
-	/*
-	 * (non-Javadoc)
+	/**
 	 * 
-	 * @see modelCheckCTL.view.View#getController()
+	 * @returns controller
 	 */
 	public Controller getController() {
 		System.out.println("JFrameView.getController ");
 		return controller;
 	}
 
-	/*
-	 * (non-Javadoc)
+	/**
 	 * 
-	 * @see
-	 * modelCheckCTL.view.View#setController(modelCheckCTL.controller.Controller
-	 * )
+	 * @param controller
 	 */
 	public void setController(Controller controller) {
 		System.out.println("JFrameView.setController ");
 		this.controller = controller;
 	}
 
-	/*
-	 * (non-Javadoc)
+	/**
 	 * 
-	 * @see modelCheckCTL.view.View#getModel()
+	 * @returns model
 	 */
 	public Model getModel() {
 		System.out.println("JFrameView.getModel ");
 		return model;
 	}
 
-	/*
-	 * (non-Javadoc)
+	/**
 	 * 
-	 * @see modelCheckCTL.view.View#setModel(modelCheckCTL.model.Model)
+	 * @param model
 	 */
 	public void setModel(Model model) {
 		System.out.println("JFrameView.setModel ");
 		this.model = model;
-		registerWithModel();
+		registerModel();
 	}
-
+	
 } // JFrameView

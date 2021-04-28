@@ -35,6 +35,7 @@ public class ParenthesesCheck {
 			return false;
 	}
 
+	@SuppressWarnings("deprecation")
 	public static boolean parentheses_valid(String exp) {
 		Stack<Character> s = new Stack<Character>();
 		int i;
