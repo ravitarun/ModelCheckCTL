@@ -9,13 +9,15 @@ public class KripkeStructure {
     public List<State> States = new ArrayList<State>();
     
     public List<String> Atoms = new ArrayList<String>();
+    
+    public boolean validState = false;
 
     
     ///  <summary>
     ///  Overloaded constructor
     ///  </summary>
     ///  <param name="kripkeStructureDefinition"></param>
-    public KripkeStructure(String kripkeStructureDefinition) {
+    public KripkeStructure(String kripkeStructureDefinition, String inputState) {
         try {
             List<String> parsedStructure = Arrays.asList(kripkeStructureDefinition.replaceAll("\r\n", "").split(";"));
             if (((parsedStructure == null) 
@@ -30,7 +32,8 @@ public class KripkeStructure {
             for (String stateName : stateNames) {
                 State state = new State(stateName);
                 States.add(state);
-                
+                if(inputState == stateName)
+                	validState = true;
                 
             }
             System.out.println(stateNames);

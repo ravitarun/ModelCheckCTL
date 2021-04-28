@@ -19,11 +19,11 @@ public class Project extends OutputHandler{
 			KripkeStructure _kripke;
 			
 			String kripkeString = Files.readString(path);
-			KripkeStructure kripke = new KripkeStructure(kripkeString);
+			KripkeStructure kripke = new KripkeStructure(kripkeString, inputState);
 	        _kripke = kripke;
 	        
-	        printOutput(_kripke.ToString());
-	        
+	        if(kripke.validState) {
+	        	printOutput(_kripke.ToString());
 	        State checkedState = new State(inputState);
 	        CtlFormula ctlFormula = new CtlFormula(inputExpression, checkedState, _kripke);
             Boolean isSatisfy = ctlFormula.IsSatisfy();
@@ -32,7 +32,10 @@ public class Project extends OutputHandler{
 	        printOutput( inputExpression + " for " + inputState + " is true");
             else
             	printOutput(inputExpression + " for " + inputState + " is false");
-	      
+	        }
+	        else {
+	        	printOutput("Your input state is Invalid Please enter a Valid State.");
+	        }
 	        
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
