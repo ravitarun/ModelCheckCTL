@@ -153,6 +153,6 @@ public class UI {
 	}
 	
 	public void setOutputDisplay(String text) {
-		outputDisplay.append("\n" + text);
+		outputDisplay.append(text + "\n");
 	}
 }
