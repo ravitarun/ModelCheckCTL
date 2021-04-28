@@ -73,7 +73,7 @@ public class KripkeStructure {
             for (String stateAtomStructure : stateAtomStructures) {
                 List<String> parsedStateAtomStructure = Arrays.asList(stateAtomStructure.split(":"));
                 if (((parsedStateAtomStructure == null) 
-                            || (parsedStateAtomStructure.size() != 2))) {
+                            || (parsedStateAtomStructure.size() < 2))) {
                     throw new Exception("{0} is not a valid state: atoms definition"+stateAtomStructure);
                 }
                 

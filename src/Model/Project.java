@@ -29,9 +29,9 @@ public class Project extends OutputHandler{
             Boolean isSatisfy = ctlFormula.IsSatisfy();
 	      
             if(isSatisfy)
-	        printOutput("true");
+	        printOutput( inputExpression + " for " + inputState + " is true");
             else
-            	printOutput("false");
+            	printOutput(inputExpression + " for " + inputState + " is false");
 	      
 	        
 		} catch (IOException e) {
