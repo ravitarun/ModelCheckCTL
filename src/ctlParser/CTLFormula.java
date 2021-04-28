@@ -1,6 +1,7 @@
 package ctlParser;
 
 // This is a binary search tree node
+//this is a test for tree git - nis
 /**
  * This is the element of a binary search tree that will represent a CTL
  * formula.
