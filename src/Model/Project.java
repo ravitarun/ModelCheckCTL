@@ -28,7 +28,10 @@ public class Project extends OutputHandler{
 	        CtlFormula ctlFormula = new CtlFormula(inputExpression, checkedState, _kripke);
             Boolean isSatisfy = ctlFormula.IsSatisfy();
 	      
-	        printOutput(isSatisfy);
+            if(isSatisfy)
+	        printOutput("true");
+            else
+            	printOutput("false");
 	      
 	        
 		} catch (IOException e) {
